@@ -53,7 +53,7 @@ nav {
   margin-bottom: 0.8rem;
 }
 
-.about-us {
+.about {
   text-align: center;
   font-size: 1.3rem;
   padding: 3rem 5rem;
@@ -96,7 +96,7 @@ input[type="submit"] {
 
 /*  */
 .sponsors h2 {
-  padding-top: 3.2rem;
+  margin-top: 3rem;
   font-size: 2.5rem;
   font-weight: bolder;
 }
@@ -110,16 +110,21 @@ input[type="submit"] {
 }
 
 .register {
-  text-align: center;
   padding: 5rem 0;
   font-size: 1.25rem;
+}
+
+.event-about {
+  text-align: left;
+  font-size: 1.25rem;
+  border-bottom: 1px black solid;
 }
 
 @media only screen and (max-width: 600px) {
   .page-header img {
     width: 75%;
   }
-  .about-us {
+  .about {
     padding: 3rem 1.5rem;
   }
   .contact {
@@ -129,4 +134,7 @@ input[type="submit"] {
   /* .events-main {
     background-size: cover;
   } */
+  .sponsors h2 {
+    margin: 0;
+  }
 }
