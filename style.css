@@ -15,6 +15,14 @@ a {
     rgb(39, 123, 139) 100%
   );
 }
+
+.gradient1 {
+  background: linear-gradient(
+    90deg,
+    rgb(214, 186, 74) 35%,
+    rgb(31, 33, 34) 100%
+  );
+}
 nav {
   border-bottom: black 1px solid;
 }
@@ -26,7 +34,7 @@ nav {
 }
 
 .sponsors {
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
 
 .feature {
@@ -79,6 +87,32 @@ nav {
 textarea {
   margin-bottom: 10px;
   width: 75%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  width: 20%;
+}
+
+/*  */
+.sponsors h2 {
+  padding-top: 3.2rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.events-main {
+  margin: 6rem 0 0;
+  background-image: url(./img/ddd1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 51vh;
+}
+
+.register {
+  text-align: center;
+  padding: 5rem 0;
+  font-size: 1.25rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -88,4 +122,11 @@ textarea {
   .about-us {
     padding: 3rem 1.5rem;
   }
+  .contact {
+    margin: 3rem 0.8rem;
+  }
+  /*  */
+  /* .events-main {
+    background-size: cover;
+  } */
 }
