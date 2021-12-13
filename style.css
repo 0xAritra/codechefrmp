@@ -113,7 +113,9 @@ input[type="submit"] {
   padding: 5rem 0;
   font-size: 1.25rem;
 }
-
+.mbl-vsl {
+  display: none;
+}
 .event-about {
   text-align: left;
   font-size: 1.25rem;
@@ -121,6 +123,10 @@ input[type="submit"] {
 }
 
 @media only screen and (max-width: 600px) {
+  input[type="submit"] {
+    width: 30%;
+    padding: 5px;
+  }
   .page-header img {
     width: 75%;
   }
@@ -130,11 +136,26 @@ input[type="submit"] {
   .contact {
     margin: 3rem 0.8rem;
   }
+
   /*  */
   /* .events-main {
     background-size: cover;
   } */
   .sponsors h2 {
     margin: 0;
+  }
+
+  .events-main {
+    background-image: url(./img/ddd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 48vh; */
+  }
+  .mbl-hdn {
+    display: none;
+  }
+  .mbl-vsl {
+    display: block;
+    width: 100%;
   }
 }
